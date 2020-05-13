@@ -61,7 +61,19 @@ body {
     font-size: 20px;
   }
 
+  figure{
+    padding: 10xp;
+  }
+
   .img-portfolio{
     height: 100px; 
     width: 140px;
+    }
+
+  h2{
+    color: whitesmoke;
+  }
+
+  figcaption{
+    color: whitesmoke;
   }
