@@ -1,0 +1,67 @@
+/* soft reset do css */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://s3-prod.crainsnewyork.com/styles/width_792/s3/Chrysler.jpg');
+    background-size: 100vw auto;
+    font-family: corbel;
+    height: 100vh;
+  }
+
+  header{
+    height: 50vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+  .menu{
+    background-color:#CCCCFF;
+    position:fixed;
+    width: 100vw;
+    top: 0;
+  }
+
+  .menu a{
+    display: block;
+    background-color: #CCCCFF;
+    padding: 5px 20px;
+  }
+  
+  .menu ul{
+    display: flex;
+    justify-content: space-around; 
+  }
+  
+  .menu li{
+    list-style: none;
+  }
+  
+  a{
+    color:black; 
+    text-decoration: none;
+  }
+
+  a:hover{
+    text-decoration: underline;
+  }
+
+  .site-title {
+    color: whitesmoke;
+    font-size: 40px;
+  }
+
+  .site-subtitle{
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 20px;
+  }
+
+  .img-portfolio{
+    height: 100px; 
+    width: 140px;
+  }
