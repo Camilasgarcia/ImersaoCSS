@@ -13,7 +13,7 @@ body {
   }
 
   header{
-    height: 50vh;
+    height: 75vh;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -60,20 +60,29 @@ body {
     font-style: italic;
     font-size: 20px;
   }
+  
+  section{
+    display: flex;
+    padding: 20px;
+    width: 100vw;
+  }
 
   figure{
-    padding: 10xp;
+    
   }
 
   .img-portfolio{
-    height: 100px; 
-    width: 140px;
+    height: 80px; 
+    width: 120px;
+    padding: 0px 10px;
     }
 
   h2{
     color: whitesmoke;
+    justify-content: right;
   }
 
   figcaption{
     color: whitesmoke;
+    padding: 0px 10px;
   }
