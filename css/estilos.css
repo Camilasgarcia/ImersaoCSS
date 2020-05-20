@@ -96,5 +96,6 @@ body {
   }
 
   figcaption:hover{
-    text-decoration: underline
+    text-decoration: underline;
+    cursor: pointer;
   }
