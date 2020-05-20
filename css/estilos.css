@@ -6,9 +6,9 @@ box-sizing: border-box;
 }
 
 body {
-    background-image: url('https://s3-prod.crainsnewyork.com/styles/width_792/s3/Chrysler.jpg');
+    background-image:url('https://s3-prod.crainsnewyork.com/styles/width_792/s3/Chrysler.jpg');
     background-size: 100vw auto;
-    font-family: corbel;
+    font-family: 'Roboto Mono', monospace;
     height: 100vh;
   }
 
@@ -22,12 +22,14 @@ body {
   .menu{
     background-color:#CCCCFF;
     position:fixed;
+    font-family: 'IBM Plex Sans', sans-serif;
     width: 100vw;
     top: 0;
   }
 
   .menu a{
     display: block;
+    font-family: 'IBM Plex Sans', sans-serif;
     background-color: #CCCCFF;
     padding: 5px 20px;
   }
@@ -52,37 +54,47 @@ body {
 
   .site-title {
     color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
     font-size: 40px;
   }
 
   .site-subtitle{
     color: whitesmoke;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-style: italic;
     font-size: 20px;
   }
   
   section{
     display: flex;
-    padding: 20px;
+    justify-content: space-between;
+    padding: 10px;
     width: 100vw;
-  }
-
-  figure{
-    
+    font-family: 'Comfortaa', cursive;
   }
 
   .img-portfolio{
-    height: 80px; 
-    width: 120px;
-    padding: 0px 10px;
+    height: 100px; 
+    width: 150px;
+    padding: 0px 0px;
+    text-align: center;
+    object-fit: cover;
     }
 
   h2{
     color: whitesmoke;
     justify-content: right;
+    font-family: 'Comfortaa', cursive;
   }
 
+
   figcaption{
-    color: whitesmoke;
-    padding: 0px 10px;
+    color: black;
+    background-color: #98C1D9;
+    padding: 0px 0px;
+    text-align: center;
+  }
+
+  figcaption:hover{
+    text-decoration: underline
   }
